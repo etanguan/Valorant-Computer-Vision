@@ -103,7 +103,7 @@ def post_process(input_image, outputs):
             draw_label(input_image, label, left, top - 20)
         else:
             draw_label(input_image, label, left, top)
-            click(top+width//2, left+height//2)
+
 
 
 
