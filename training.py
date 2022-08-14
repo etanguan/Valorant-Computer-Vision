@@ -7,7 +7,7 @@ rf = Roboflow(model_format="yolov5", notebook="ultralytics")
 os.environ["DATASET_DIRECTORY"] = "/content/datasets"
 
 
-rf = Roboflow(api_key="bF2x4y4FT7clxHqYBIIU")
+rf = Roboflow(api_key="yourKey")
 project = rf.workspace("david-hong").project("valorant-enemy")
 dataset = project.version(2).download("yolov5")
 
